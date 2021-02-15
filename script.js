@@ -15,16 +15,12 @@ start.addEventListener("click", function(){
 
 
 
-
-
 imgBack.addEventListener('click', (event) => {
     const isButton = event.target.nodeName === 'BUTTON';
     if (!isButton) {
         return;
     }
     
-
-   
 })
 
 
