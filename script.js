@@ -3,13 +3,6 @@ const match1 = document.querySelectorAll('button.match1');
 const start = document.querySelector('#start');
 let colors = ["blue", "red", "green", "yellow", "brown","blue", "red", "green", "yellow", "brown"];
 
-start.addEventListener("click", function(){
-    colors = shuffle(colors);
-    for(let i = 0 ;i < colors.length; i++){
-        match1[i].style.backgroundColor = colors[i];
-    }
-    console.log(match1[2].style.backgroundColor)
-})
 
 
 
