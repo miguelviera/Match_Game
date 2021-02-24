@@ -42,5 +42,8 @@ function shuffle(array) {
     }
     return arr;
 }
+    return arr;
+}
+
 
    
