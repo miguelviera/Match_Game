@@ -41,7 +41,8 @@ function shuffle(array) {
       array[randomIndex] = temporaryValue;
     }
 
-
+    return arr;
+}
 
 
    
