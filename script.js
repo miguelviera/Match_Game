@@ -42,4 +42,5 @@ function shuffle(array) {
     }
  
 
-   
+      return arr
+}
