@@ -1,8 +1,5 @@
 
-const imgBack = document.querySelector('.imgBack');
-const match1 = document.querySelectorAll('button.match1');
-const start = document.querySelector('#start');
-let colors = ["blue", "red", "green", "yellow", "brown","blue", "red", "green", "yellow", "brown"];
+
 
 start.addEventListener("click", function(){
     colors = shuffle(colors);
